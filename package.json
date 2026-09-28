@@ -1,0 +1,28 @@
+{
+  "name": "get_email_webhook_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.ts",
+    "dev": "nodemon src/server.ts",
+    "build": "npx tsc",
+    "watch": "tsc-watch src/server.ts --outDir ./dist --onSuccess \"node ./dist/server.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.2",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "tsc-watch": "^7.2.1",
+    "typescript": "^7.0.2"
+  }
+}
