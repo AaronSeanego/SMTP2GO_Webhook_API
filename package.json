@@ -24,5 +24,13 @@
     "ts-node": "^10.9.2",
     "tsc-watch": "^7.2.1",
     "typescript": "^7.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AaronSeanego/SMTP2GO_Webhook_API.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AaronSeanego/SMTP2GO_Webhook_API/issues"
+  },
+  "homepage": "https://github.com/AaronSeanego/SMTP2GO_Webhook_API#readme"
 }
